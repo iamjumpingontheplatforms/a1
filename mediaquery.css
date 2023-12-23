@@ -1,0 +1,51 @@
+@media (min-width: 500px) {
+    @keyframes colorchange {
+        0% {
+            color: green;
+        }
+        
+        95% {
+            color: yellow;
+        }
+    
+        80% {
+            color: orangered;
+        }
+        70% {
+            color: red;
+        }
+        
+        65% {
+            color: darkred;
+        }
+    
+        55% {
+            color: black;
+        }
+        50% {
+            color: magenta;
+        }
+    
+        40% {
+            color: blue;
+        }
+        30% {
+            color: rgb(2, 153, 203);
+        }
+        
+        20% {
+            color: cyan;
+        }
+    
+        10% {
+            color: white;
+        }
+        0% {
+            color: green;
+        }
+    }    
+
+    body {
+        background-color: cyan;
+    }
+}
